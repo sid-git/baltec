@@ -1,0 +1,112 @@
+
+.list li{
+    width: 30%;
+    float: left;
+}
+.list li img{
+    width: 100%;
+}
+.portfolio-multiple-list{
+    padding: 0px;
+}
+.portfolio-multiple-list li{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    float: left;
+    list-style: none;
+}
+.portfolio-multiple-list li img{
+    width: 100px;
+    height: 100px;
+}
+
+.colio-container{
+    background-color: #f5f5f5;
+    margin: 0px 20px;
+}
+.co-section-close i{
+    font-size: 20px;
+
+}
+.co-section-next i,.co-section-prev i{
+    font-size: 20px;
+
+}
+
+/* Colio - Basic Styles
+================================================== */
+
+.colio {
+	position: relative;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.colio-container {
+	padding:40px;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.colio-content {
+	display: none;
+	overflow: hidden;
+}
+
+.colio-close,
+.colio-prev,
+.colio-next {
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.colio-close:hover,
+.colio-prev:hover,
+.colio-next:hover,
+.colio-close:focus,
+.colio-prev:focus,
+.colio-next:focus{
+text-decoration: none;
+}
+
+.colio-no-prev,
+.colio-no-next {
+	cursor: default;
+	opacity: 0.2;
+}
+
+/* navigation, close */
+
+.colio-close {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+
+.colio-navigation {
+	position: absolute;
+	top: 20px;
+	left: 60px;
+
+
+}
+
+.colio-navigation a {
+	margin-right: 5px;	
+}
+
+/* placement */
+
+.colio-placement-inside,
+.colio-placement-before {
+	margin-bottom: 20px;
+}
+
+.colio-placement-after {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

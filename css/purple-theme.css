@@ -1,0 +1,16 @@
+/**=====THEMES====**/
+
+.logo a span, .most-popular .pricing-head .p-title, .top-menu>li>a:hover,.top-menu li.active>a,.skill-lists li:hover>h3,.team-member:hover .team-member-info .team-member-name,.member-social-link li a:hover,.member-social-link li a:active,.member-social-link li a:focus,.testimonial-meta ,.about-block .intro-icon,.testimonial-meta ,.news-section h3 a:hover,.news-section h3 a:focus ,.contact-form h3,.contact-address h3,.numeric-count, .post-content-meta ul li a,.read-more:hover,.read-more:focus,.comments-list li a:hover,.comments-list li a:focus,.category-list li a:hover,.comments-list li a:focus , .archieve-list li a:hover,.comments-list li a:focus,.filter:hover, .filter.selected,.post h3 a:hover,.service-icon i,.service-block:hover > .service-intro h4 {
+    color:#9488dd !important;
+}
+.member-skill .progress-bar, .btn-l-green:hover, .most-popular .price-actions .btn, .most-popular .pricing-head .p-value, .post-container,.about-block a:hover ,.skill-lists li:hover>.skill-icon,.skillbar-bar, .btn-send:hover,.post blockquote,.post-meta ul li a:hover,.btn-search,div.jp-volume-bar-value,.sf-menu ul li a:hover,.gear-settings {
+    background-color:#9488dd !important;
+}
+
+
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus, .pagination > li > a.active {
+    background-color:#9488dd !important;
+    border: 1px solid #9488dd !important;
+    color: #FFFFFF !important;
+}

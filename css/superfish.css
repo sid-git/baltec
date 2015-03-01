@@ -1,0 +1,124 @@
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu li {
+	position: relative;
+}
+.sf-menu ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index: 99;
+}
+.sf-menu > li {
+	float: left;
+}
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+	display: block;
+}
+
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+.sf-menu ul ul {
+	top: 0;
+	left: 100%;
+}
+
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float: left;
+	margin-bottom: 0px;
+}
+.sf-menu ul {
+text-align: left;
+	min-width: 12em; /* allow long menu items to determine submenu width */
+	*width: 12em; /* no auto sub width for IE7, see white-space comment below */
+}
+.sf-menu a {
+
+	padding: 1em 1em;
+	text-decoration: none;
+	zoom: 1; /* IE7 */
+}
+
+.sf-menu li {
+
+	white-space: nowrap; /* no need for Supersubs plugin */
+	*white-space: normal; /* ...unless you support IE7 (let it wrap) */
+	-webkit-transition: background .2s;
+	transition: background .2s;
+    position: relative;
+}
+.sf-menu > li > ul{
+-webkit-box-shadow:0 1px 2px rgba(000,000,000,.1);
+box-shadow:0 1px 2px rgba(000,000,000,.1);
+}
+
+
+.sf-menu ul li a{
+    background-color: #fff;
+    border-bottom: #f5f5f5 1px solid;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+
+
+}
+.sf-menu ul li a:hover{
+    text-decoration: none;
+    background-color: #e65a50;
+    color: #fff;
+}
+
+.sf-menu ul ul li a{
+    background-color: #f1f1f1;
+}
+
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+
+	/* only transition out, not in */
+	-webkit-transition: none;
+	transition: none;
+}
+
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	margin-top: -3px;
+	height: 0;
+	width: 0;
+	/* order of following 3 rules important for fallbacks to work */
+	border: 5px solid transparent;
+
+}
+
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after {
+	margin-top: -5px;
+	margin-right: -3px;
+	border-color: transparent;
+	border-left-color: #ccc;
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: #fff;
+}
+
+.too_narrow_fix {
+    left: -12em !important;
+    top: 0px  !important;
+}

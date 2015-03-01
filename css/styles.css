@@ -1,0 +1,4513 @@
+.logo a, .post-list li p,.section-header,.secondary-header,.skill-lists li h3,.team-member-name,.member-name,.service-intro h4, .contact-form h3,.contact-address h3,.skill-bar-percent,.numeric-factor,.numeric-factor-header,.inner-page-title,.post h3 a,.post blockquote,.comments-title,.comments-header h3,.comment-author,.comments-count,.comments-header,.reply-header,.sidebar h3,.da-thumbs .mega-list article h3,.text-slider li,.banner-tag-lines li,.secondary-section-h h3,.pricing-head .p-value,.pricing-head .p-title {
+    font-family: 'proxima-nova', sans-serif !important;
+}
+.banner-circle {
+    border:rgba(255,255,255,0.5) 10px solid;
+    -webkit-box-shadow:0px 0px 5px rgba(97,97,97,.3);
+    box-shadow:0px 0px 5px rgba(97,97,97,.3);
+    width: 156px;
+    height: 156px;
+}
+.about {
+
+    
+    padding-bottom: 80px;
+}
+.team-list .owl-controls .owl-buttons div{
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    border-radius: 3px !important;
+    padding: 10px 15px !important;
+    font-size: 13px !important;
+    text-transform: uppercase;
+    background-color: #333 !important;
+}
+
+.team {
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+.portfolio {
+    padding-top:80px;
+    
+}
+.services {
+    padding-top:80px;
+    padding-bottom: 80px;
+    background:#fff;
+}
+.pricing {
+    padding-top:80px;
+    padding-bottom: 80px;
+    background:#7e9dc1;
+}
+.contact {
+    padding-top:80px;
+    padding-bottom:0px;
+    background:#7e9dc1;
+}
+.career {
+padding-top: 80px;
+padding-bottom:80px;
+padding-bottom: 0px;
+
+}
+
+.blog-section{
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+
+#location-map {
+    height:450px;
+    background:#f2f2f2;
+}
+#map {
+    height:450px;
+    width:100%;
+}
+.overlay-section {
+    position:relative;
+}
+.overlay-section .container {
+    z-index:100;
+    position:relative;
+}
+.value {
+    min-height:500px;
+    background: url(../img/banner-img/business_value.jpg) no-repeat fixed 0 0;
+    background-size: cover;
+
+}
+.overlay-div {
+    height:100%;
+    width:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    background-color:rgba(000,000,000,.6);
+}
+.post-block {
+    background: url(../img/banner-img/parallax_img2.jpg) no-repeat fixed 0 0;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.testimonial {
+    background: url(../img/banner-img/parallax_img3.jpg) no-repeat fixed 0 0;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+/*Component loading Animation*/
+
+.a-one,.a-two,.a-three,.a-four {
+    opacity:0;
+    left:-80px;
+    position:relative !important;
+}
+.theme-section {
+    margin-top:40px;
+}
+.post-list {
+    margin:52px 0 52px 0px;
+    padding:0px;
+}
+.post-list li {
+    list-style:none;
+}
+.post-list li p {
+    color:#fff;
+    font-size:30px;
+    line-height:44px;
+}
+.post-list li p span {
+    text-transform:uppercase;
+    font-size:30px;
+    font-weight:400;
+}
+#top-bar {
+    width:100%;
+    min-height:90px;
+    background:#fff;
+    position:fixed;
+    top:0px;
+
+    z-index:2000;
+    -webkit-box-shadow:0 4px 15px rgba(0,0,0,0.07);
+    box-shadow:0 4px 15px rgba(0,0,0,0.07);
+}
+.logo{
+   height:80px;
+   display:block;
+   float:left;
+}
+.logo a{
+    height:80px;
+    display:block;
+    line-height:80px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.logo img {
+    width:100%;
+}
+.logo a span{ display: inline-block; position: relative; top: 3px; color: #E65A50;}
+.logo a:hover,.logo a:focus{ text-decoration: none;}
+
+.navigation {
+    position:relative;
+    margin-top:0px;
+}
+.top-menu {
+    margin:0px;
+    text-align:right;
+    min-height:45px;
+    background-color:#fff;
+    padding:0px;
+    display:inline-block;
+}
+.top-menu>li {
+    list-style:none;
+    display:inline-block;
+}
+.top-menu>li>a {
+    color:#111;
+    display:inline-block;
+    line-height:80px;
+    font-weight:700;
+    font-size:12px;
+    letter-spacing:.05em;
+    padding:0px 8px;
+    text-transform:uppercase;
+}
+.top-menu>li>a:hover {
+    text-decoration:none;
+    color:#e75e50;
+}
+
+.top-menu>li>a:focus {
+    text-decoration:none;
+}
+.top-menu li.selected a {
+    background:#000;
+    color:#fff;
+}
+.post-container {
+    background:#e65a50;
+    min-height:200px;
+    text-align:center;
+}
+.section-header {
+    text-transform:uppercase;
+    font-size:35px;
+    font-weight:700;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom:0;
+    
+}
+.section-intro {
+max-width: 60%;
+margin: 0 auto 80px auto;
+text-align: center;
+font-size: 21px;
+font-weight: normal;
+line-height: 34px;
+
+color: #362f2d;
+}
+.contact .section-intro {
+    margin:0 auto 80px auto;
+    color:#fff;
+}
+
+.contact p {
+    line-height: inherit;
+}
+.contact a {
+    color:#fff;
+}
+
+span.list-title {
+display: inline-block;
+background: #1D4671;
+color: #fff;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+height: 30px;
+line-height: 30px;
+padding-left: 10px;
+text-align: center;
+width: 20%;
+}
+.secondary-header {
+    text-transform:uppercase;
+    font-size:26px;
+    font-weight:700;
+    color:#e67e22;
+    text-align:center;
+    margin-bottom:40px;
+}
+.white {
+    color:#fff !important;
+}
+.orange {
+    color:#e65a4c !important;
+}
+.about-intro ul{
+    list-style: circle;
+    padding-left: 30px;
+}
+.about-block a {
+    background:#efeded;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    padding:60px 20px;
+    margin-bottom:40px;
+    display:block;
+}
+.about-block a:hover,.about-block a:focus {
+    text-decoration:none;
+}
+.about-block .intro-icon {
+    display:block;
+    color:#f77b6f;
+    text-align:center;
+    margin-bottom:10px;
+}
+.about-block .intro-icon i {
+    font-size:40px;
+    position:relative;
+    top:0px;
+    -webkit-transition:300ms ease-in-out;
+    -moz-transition:300ms ease-in-out;
+    -o-transition:300ms ease-in-out;
+    -ms-transition:300ms ease-in-out;
+    transition:300ms ease-in-out;
+}
+.about-container .col-md-4{
+    padding-bottom:30px;
+}
+.about-title {
+    display:block;
+    text-align:center;
+    font-weight:600;
+    text-transform:uppercase;
+    color:#111;
+    position:relative;
+    top:0px;
+    -webkit-transition:300ms ease-in-out;
+    -moz-transition:300ms ease-in-out;
+    -o-transition:300ms ease-in-out;
+    -ms-transition:300ms ease-in-out;
+    transition:300ms ease-in-out;
+}
+.about-block a:hover {
+    background-color:#f77b6f;
+    color:#fff;
+    -webkit-transition:500ms ease-in-out;
+    -moz-transition:500ms ease-in-out;
+    -o-transition:500ms ease-in-out;
+    -ms-transition:500ms ease-in-out;
+    transition:500ms ease-in-out;
+}
+.about-block a:hover>.intro-icon i,.about-block a:hover>.about-title {
+    color:#fff;
+}
+.about-block a:hover>.intro-icon i {
+    position:relative;
+    top:50px;
+    -webkit-animation:moveFromTop 300ms ease;
+    -moz-animation:moveFromTop 300ms ease;
+    -ms-animation:moveFromTop 300ms ease;
+}
+.about-block a:hover>.about-title {
+    position:relative;
+    top:-50px;
+    -webkit-animation:moveFromBottom 300ms ease;
+    -moz-animation:moveFromBottom 300ms ease;
+    -ms-animation:moveFromBottom 300ms ease;
+}
+
+
+/*pricing table*/
+
+.pricing-table {
+    background: #e9e9e9;
+    text-align: center;
+    padding: 0 0 25px 0;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.pricing h2 {
+    color:#fff;
+}
+
+.most-popular .price-actions .btn {
+    background-color: #E65A50 !important;
+    cursor: pointer;
+
+}
+
+.pricing-table .price-actions .btn {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: #acacac;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+.pricing-table .btn:hover{
+    -moz-opacity:0.6;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+
+
+.pricing-table ul {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.pricing-table ul li {
+    border-bottom: 1px dotted #CCCCCC;
+    padding: 1em 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.pricing-head{
+    position: relative;
+    text-align: center;
+}
+.pricing-head .p-value{ width:150px; height: 150px; display: inline-block; background: #ACACAC; position: relative; top: -70px; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; line-height: 130px; font-size: 28px; font-weight: 400; border: #e9e9e9 10px solid; color: #fff; text-transform: uppercase; margin-bottom: -40px;}
+.pricing-head .p-value i{ font-style: normal; font-size: 18px; padding-right: 3px; font-weight: 300;}
+.pricing-head .p-title{ display: block; font-size: 18px; text-transform: uppercase;}
+
+.most-popular .pricing-head .p-value{
+    background: #f77b6f;
+    color: #fff;
+}
+.most-popular .pricing-head .p-title{
+    color: #f77b6f;
+}
+
+
+.about-intro {
+    text-align:left;
+    line-height:24px;
+    font-weight:400;
+}
+.secondary-section {
+    max-width:80%;
+    font-size:24px;
+    line-height:34px;
+    text-align:center;
+    margin:50px auto;
+   font-weight:400;
+}
+
+/*Skills*/
+.team-skills-details {
+    max-width:100%;
+    min-height:510px;
+    position:relative;
+    background-color:#f5f5f5;
+    margin-top:20px;
+}
+.skill-lists {
+    margin:40px 0;
+    padding:0px;
+}
+.skill-lists li {
+    list-style:none;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+.skill-lists li h3 {
+    font-size:20px;
+    font-weight:400;
+    text-transform:uppercase;
+    margin-left:80px;
+    margin-bottom:5px;
+    color:#2c3e50;
+}
+.skill-lists li p {
+    margin-left:80px;
+}
+.skill-icon {
+    width:70px;
+    height:70px;
+    -webkit-border-radius:100%;
+    border-radius:100%;
+    display:inline-block;
+    float:left;
+    background-color:#333;
+    margin-top:16px;
+}
+.skill-icon i {
+    width:70px;
+    height:70px;
+    -webkit-border-radius:100%;
+    border-radius:100%;
+    line-height:70px;
+    text-align:center;
+    font-size:20px;
+    color:#fff;
+    display:inline-block;
+    -webkit-transition:all 300ms linear;
+    -moz-transition:all 100ms linear;
+    -o-transition:all 100ms linear;
+    -ms-transition:all 100ms linear;
+    transition:all 100ms linear;
+}
+.skill-lists li:hover .skill-icon i {
+    font-size:40px;
+    -webkit-transition:all 100ms linear;
+    -moz-transition:all 100ms linear;
+    -o-transition:all 100ms linear;
+    -ms-transition:all 100ms linear;
+    transition:all 100ms linear;
+}
+.skill-lists li:hover>.skill-icon {
+    background-color:#e85e50;
+    -webkit-transition:all 100ms linear;
+    -moz-transition:all 100ms linear;
+    -o-transition:all 100ms linear;
+    -ms-transition:all 100ms linear;
+    transition:all 100ms linear;
+}
+.skill-lists li:hover>h3 {
+    color:#e85e50 !important;
+    -webkit-transition:all 100ms linear;
+    -moz-transition:all 100ms linear;
+    -o-transition:all 100ms linear;
+    -ms-transition:all 100ms linear;
+    transition: all 100ms linear;
+}
+/*TEAM*/
+
+/*TEAM*/
+.team-member-container{
+    background: #f5f5f5;
+    padding-bottom: 40px;
+}
+
+.team-member-container .container{
+    width:90% !important;
+}
+.team-member{
+    background-color: #f5f5f5;
+    margin: 0px 15px;
+}
+.team-member:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+.ind-member-bio{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.team-member-container .member-social-link a{
+    background: #f5f5f5;
+}
+.team-member-container .member-social-link a:hover{
+    background: #E65A50;
+    color: #fff !important;
+}
+
+.member-title{
+    text-transform: uppercase;
+    margin:0px !important;
+}
+.member-position{
+    margin:5px 0px 30px 0px;
+    display: inline-block;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.team-member-container .item-list{
+    padding: 0px;
+}
+.team-member-container .item-list li{
+    list-style: none;
+    line-height: 30px;
+
+}
+.team-member-container .item-list li i{
+    padding-right: 5px;
+}
+
+.member-skill .progress{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    height: 6px;
+    background: #dddddd;
+
+}
+.member-skill .progress-bar {
+    background-color: #E65A50;
+}
+
+.skill-meta{
+    padding: 0px;
+    margin: 0px;
+}
+
+.skill-meta li{
+    list-style: none;
+    font-size: 12px;
+}
+
+
+.team-member {
+    text-align:center;
+    margin-top:20px;
+    padding:30px 30px;
+}
+.team-member.active{
+    background: #f5f5f5;
+}
+.img-section {
+    position:relative;
+}
+.team-member-thumb {
+    width:217px;
+    height:214px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.team-member-thumb img {
+    width:217px;
+    filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 10+,Firefox on Android */
+    filter:gray;
+    /* IE6-9 */
+    -webkit-filter:grayscale(100%);
+    /* Chrome 19+,Safari 6+,Safari 6+iOS */
+}
+.team-member:hover>.team-member-thumb img {
+    filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0,0 1 0 0 0,0 0 1 0 0,0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter:grayscale(0%);
+    background-color:#c2aaa6;
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    cursor:pointer;
+}
+.team-member:hover .team-member-info .team-member-name {
+    color:#E75E50;
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+.team-member:hover .team-member-info .team-member-name span {
+    color:#666;
+}
+.team-member-name {
+    text-transform:uppercase;
+    font-size:16px;
+    margin-bottom:0px;
+}
+.member-name {
+    text-transform:uppercase;
+    font-size:60px;
+    font-weight:700;
+    color:#ffffff;
+    text-align:left;
+    margin-bottom:40px;
+    margin-top:60px;
+}
+.member-bio p {
+    font-size:16px;
+}
+.team-member-name span {
+    text-transform:none;
+    display:block;
+    margin-bottom:0px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    color: #ccc;
+}
+.member-social-link {
+    margin:0px 0px 20px 0px;
+    padding:0px;
+    list-style:none;
+}
+.member-social-link li {
+    display:inline-block;
+}
+.member-social-link li a {
+    display:inline-block;
+    font-size:20px;
+    padding:10px 10px;
+    color:#ccc;
+}
+.member-social-link li a:hover,.member-social-link li a:active,.member-social-link li a:focus {
+    text-decoration:none;
+    color:#E75E50;
+}
+.member-intro {
+    padding:20px 10px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    margin-bottom:60px;
+}
+.member-intro.sclected {
+    background-color:#eeeeee;
+}
+.member-intro.sclected:after {
+    top:100%;
+    border:solid transparent;
+    content:" ";
+    height:0;
+    width:0;
+    position:absolute;
+    pointer-events:none;
+}
+.member-intro.sclected:after {
+    border-color:rgba(238,238,238,0);
+    border-top-color:#eeeeee;
+    border-width:10px;
+    left:50%;
+    margin-left:-10px;
+}
+.member-intro P {
+    line-height:24px;
+    font-weight:400;
+}
+.section-wrap {
+    min-height:550px !important;
+}
+.team-member-image {
+    position:absolute;
+    left:0px;
+    bottom:-10px;
+}
+.team-member-details {
+    max-width:100%;
+    min-height:560px;
+    position:relative;
+    background-color:#dbdbdb;
+    margin-top:20px;
+}
+.team-member-details blockquote {
+    font-style:italic;
+    margin:50px 0px;
+}
+.team-member-details blockquote p {
+    font-size: 16px;
+}
+/*==Services Section==*/
+.services h3 {
+    margin-bottom: 30px;
+    text-align: center;
+    color:#004778;
+    font-weight: bold;
+    font-family: 'proxima-nova'
+}
+
+.service-icon {
+    width:40px;
+    height:40px;
+    display:inline-block;
+    float:left;
+}
+.service-icon i {
+    width:40px;
+    height:40px;
+    display:block;
+    text-align:center;
+    font-size:30px;
+    margin-top:3px;
+
+}
+.service-intro {
+    margin-left:60px;
+    margin-bottom:50px;
+}
+.service-intro h4 {
+    font-size:18px;
+    font-weight:400;
+    text-transform:uppercase;
+    margin:0px 0px 10px 0px;
+}
+blockquote.magenta {
+    border-left:5px solid #7f409e;
+}
+.post-block .container {
+    text-align:center;
+}
+.value .min-container {
+    padding-top:100px;
+}
+.testimonial-header {
+    text-align:center;
+}
+.testimonial-header h2 {
+    color:#fff;
+    display:inline-block;
+}
+.testimonial-header h2 span {
+    display:block;
+    font-size:30px;
+    text-transform:none;
+}
+.testimonial-list {
+    max-width:70%;
+    margin:auto;
+}
+.testimonial-text {
+    margin-top:20px;
+    color:#000;
+    font-weight:400;
+}
+.testimonial-wrap .thumb {
+    width:130px;
+    height:130px;
+    display:inline-block;
+    float:left;
+    margin-right:20px;
+}
+.testimonial-wrap .thumb img {
+    width:100%;
+    border:rgba(255,255,255,.3) 10px solid;
+    height:100%;
+}
+.testimonial-meta {
+    font-weight:600;
+    color:#e65a50;
+}
+.owl-page span {
+    background-color:rgba(255,255,255,.5) !important;
+}
+.owl-page.active span {
+    background-color: #fff !important;
+}
+/*News Section*/
+.latest-news .section-intro {
+    color:#fff;
+}
+.latest-news .section-intro span {
+    color:#fff;
+}
+.news-section {
+    background-color:rgba(000,000,000,.3);
+    padding:20px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    color:#fff;
+    text-align:left;
+    margin-bottom: 20px;
+}
+.news-section img {
+    float:left;
+    margin-right:10px;
+    width:122px;
+    height:122px;
+}
+.news-section h3 {
+    font-size:18px;
+    font-weight: 500;
+    margin:0px 0px 10px 0px;
+}
+.news-section p {
+    margin:0px;
+}
+.news-section a {
+    color:#fff;
+}
+.news-section a:hover,.news-section a:focus {
+    text-decoration:none;
+    color:#fff;
+}
+.news-section h3 a:hover,.news-section h3 a:focus {
+    text-decoration:none;
+    color:#e65a50;
+}
+.clients {
+    margin:50px 0px;
+}
+.clients-list {
+    text-align:center;
+}
+.clients-list li {
+    display:inline-block;
+    width:150px;
+    list-style:none;
+    margin:10px 30px;
+}
+.skills-bar .progress {
+    display:block;
+    width:200px;
+    height:10px;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+    margin:5px 0;
+}
+.skill-title {
+    margin-right:5px;
+    text-align:right;
+    width:50px;
+}
+.skills-set {
+    margin-top:175px;
+}
+.skills-set .member-social-link {
+    margin-left:-14px;
+    text-align:left;
+}
+.keywords {
+    border-top:#c6c6c6 1px solid;
+    margin-top:30px;
+    padding-top:30px;
+    margin-bottom:10px;
+}
+.keywords ul {
+    text-align:left;
+    padding:0px;
+}
+.keywords ul li {
+    display:inline-block;
+    list-style:none;
+    margin-right:10px;
+}
+.contact-header {
+    color:#fff;
+    margin-bottom:20px;
+}
+.contact-form-wrap {
+    width:80%;
+    border-top:#e65a4c 6px solid;
+    background:#dfdfdf;
+    min-height:370px;
+    margin:137px auto;
+}
+
+.contact-form h3,.contact-address h3 {
+    color:#e65a50;
+    margin:0px 0px 10px 0px;
+    text-transform:uppercase;
+    font-size:20px;
+}
+.contact-address,.contact-form{
+    margin-bottom: 80px;
+    padding-top: 80px;
+}
+.contact-address p {
+    margin-bottom:20px;
+    line-height:22px;
+}
+.contact-address span {
+    margin-bottom:20px;
+    display:block;
+}
+.portfolio-filter {
+    text-align:center;
+    margin-bottom: 20px;
+}
+.portfolio-filter ul li {
+    list-style:none;
+    display:inline-block;
+    cursor: pointer;
+    padding:10px 0px;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+  
+}
+.portfolio-filter ul>li+li:before {
+    color:#2c3e50;
+    content:"/";
+    padding:0 5px;
+
+}
+.portfolio-filter ul li a {
+    font-weight:400;
+    color:#2c3e50;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+}
+.portfolio-container{
+    margin-left: 20px;
+}
+.portfolio-container .item {
+    height:240px;
+    overflow: hidden;
+    background-color:#fff;
+    margin-bottom:20px;
+}
+.portfolio-container .item img{
+    width: 100%;
+    height:240px;
+
+    vertical-align: top;
+
+}
+
+.blog-container {
+    margin-left: 30px;
+}
+.blog-container .blog-post{
+border: #e5e5e5 1px solid;
+    padding: 30px;
+}
+.blog-container .item-blog {
+    height:auto;
+    overflow: hidden;
+    background-color:#fff;
+    margin-bottom:20px;
+}
+.blog-container .item-blog h4{
+    font-weight: 500;
+}
+.blog-container .item-blog a{
+    color: #333;
+}
+.blog-container .item-blog a:hover,.blog-container .item-blog a:focus{
+    text-decoration: none;
+}
+.post-action a{margin-right: 10px;}
+
+.blog-container .item-blog img{
+    width: 100%;
+}
+
+.btn-load {
+    text-align:center;
+}
+.btn-view-all {
+    background-color:#333;
+    padding:15px 20px !important;
+    color:#fff;
+    text-transform:uppercase;
+    margin-top: 20px;
+}
+.btn-view-all:hover {
+    background-color:#FA6862;
+    color:#fff !important;
+
+}
+.isotope .isotope-item {
+    -webkit-transition-duration:0.8s;
+    -moz-transition-duration:0.8s;
+    transition-duration:0.8s;
+    -webkit-transition-property:-webkit-transform,opacity;
+    -moz-transition-property:-moz-transform,opacity;
+    transition-property:transform,opacity;
+}
+
+/*skill progress bar*/
+.skill-progress-bar {
+    margin:60px 0 30px 0px
+}
+.skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:35px;
+    margin-left:150px;
+    background:#fff;
+    height:35px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width,background-color;
+    -moz-transition-property:width,background-color;
+    -ms-transition-property:width,background-color;
+    -o-transition-property:width,background-color;
+    transition-property:width,background-color;
+}
+.skillbar-title {
+    float:left;
+    font-weight:bold;
+    color:#fff;
+    width:140px;
+    text-align:right;
+    color:#666;
+    -webkit-border-top-left-radius:4px;
+    -webkit-border-bottom-left-radius:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-bottomleft:4px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.skillbar-title span {
+    display:block;
+    padding:0 20px;
+    height:35px;
+    line-height:35px;
+    -webkit-border-top-left-radius:4px;
+    -webkit-border-bottom-left-radius:4px;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-bottomleft:4px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.skillbar-bar {
+    height:35px;
+    width:0px;
+    background:#e65a50;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+.skill-bar-percent {
+    font-weight:400;
+    position:absolute;
+    right:10px;
+    top:0;
+    font-size:16px;
+    height:35px;
+    line-height:35px;
+    color:#444;
+    color: rgba(0,0,0,0.4);
+}
+
+#footer {
+    background:#333;
+    color:#fff;
+}
+.footer-content {
+    margin:40px 0px;
+}
+.footer-right {
+    text-align:right;
+}
+.social-link {
+    padding:20px 0px 0px 0px;
+}
+.social-link li {
+    list-style:none;
+    display:inline-block;
+    font-size:20px;
+    margin-left:0px;
+    float:left;
+    margin-right:15px;
+}
+.social-link li a {
+    color:#fff;
+}
+.social-link li a:hover {
+    color:#eee;
+    text-decoration:none;
+}
+.address span {
+    display:block;
+}
+
+.input-field {
+    width:100%;
+    min-height:45px;
+    color:#666;
+    padding:0px 10px;
+    border:0px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.contact-form .input-field {
+    margin-bottom:10px;
+}
+.input-name {
+    padding-right:5px !important;
+}
+.input-email {
+    padding-left:5px !important;
+}
+.input-message {
+    width:100%;
+    padding:10px 10px;
+    border:0px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+
+    color:#666;
+    margin-bottom:10px;
+}
+.btn-send {
+    background-color:#222;
+    font-weight:600 !important;
+    text-transform:uppercase;
+    color:#fff;
+    padding:12px 50px !important;
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+.btn-send:hover {
+    background-color:#e65a50;
+    color:#fff !important;
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+.contact-form h3 {
+    margin-bottom:20px;
+}
+#contact {
+
+    min-height: 750px
+}
+.newsletter-signup {
+    margin:40px auto;
+    width:80%;
+}
+.newsletter-signup .input-filed {
+    width:65%;
+}
+.newsletter-signup .input-btn {
+    width:30%;
+}
+.newsletter-signup .email-input {
+    width:100%;
+    min-height:54px;
+    padding:0px 10px;
+    border:0px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.newsletter-signup .btn-subscribe {
+    min-height:54px;
+    background:#88b6ac;
+    width:100%;
+    line-height:40px;
+}
+.newsletter-signup ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+.newsletter-signup h4 {
+    margin-bottom:20px;
+}
+.contact-form-action {
+    text-align:right;
+}
+.copyright {
+    border-top:rgba(255,255,255,.1) 1px solid;
+    width:100%;
+    margin:auto;
+    line-height:50px;
+}
+.animated {
+    animation-delay:0.3s;
+    animation-fill-mode:both;
+}
+.numeric-factor {
+
+    text-align:center;
+    padding-top:80px;
+    padding-bottom:80px;
+    background-color: #f5f5f5;
+
+}
+.numeric-factor-header {
+    font-size:30px;
+    color:#555;
+    padding:0 40px 20px 40px;
+    margin: 0px;
+}
+.numeric-count {
+    text-transform:uppercase;
+    font-weight:400;
+    font-size:80px;
+    color:#e65a50;
+    display:block;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+}
+.factor-title {
+    font-size: 16px;
+    font-family: 'proxima-nova', sans-serif;
+}
+/*Blog Details*/
+.blog-header {
+    background:#3bd1e1 url('../img/blog_banner.jpg') no-repeat bottom;
+    background-size: cover;
+}
+.feature-header {
+    background:#3bd1e1 url('../img/feature_banner.jpg') no-repeat bottom;
+    background-size: cover;
+}
+.inner-page-header {
+    min-height:125px;
+    width:100%;
+}
+.inner-page-title {
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:400;
+    line-height:125px;
+    margin:0px;
+    padding:0px;
+}
+.blog-post-block {
+    border-bottom:#ccc 1px dotted;
+    padding-bottom:30px;
+    margin-bottom:30px;
+}
+.post-img{
+    margin-bottom: -1px;
+    overflow: hidden;
+}
+
+
+
+.post-content h4 {
+    margin-top:0px;
+    margin-bottom:5px;
+}
+.post-content h4 a {
+    font-size:20px;
+}
+.post-content a {
+    color:#444;
+}
+.post-content p{
+    line-height: 2em;
+    margin-bottom: 0px;
+}
+.post-content p a {
+    color:#888;
+}
+.post-content p a:hover,.post-content p a:focus {
+    color:#444;
+}
+.post-meta {
+    color:#aaa;
+    font-size: 13px;
+    margin-bottom:20px;
+}
+.post-meta a {
+    color:#aaa;
+}
+.post-content a:hover,.post-content a:focus {
+    text-decoration:none;
+    color:#fa6862;
+}
+.post-action {
+    padding-bottom:20px;
+}
+.post-action a {
+    padding-right:10px;
+    color:#aaa !important;
+    font-size: 13px;
+}
+.quote-post {
+    text-align:center;
+    background-color:#f4c946;
+    color:#fff;
+    padding:20px 10px;
+}
+.quote-post a {
+    color:#fff;
+}
+.quote-post a:hover,.quote-post a:focus {
+    color:#fff;
+    text-decoration:none;
+}
+.post-content blockquote {
+    margin:0px;
+    border:0px;
+    color:#fff;
+    font-style:normal;
+}
+.post-content blockquote p {
+    line-height:1.3em;
+    color:#fff;
+    font-size:16px;
+}
+
+
+/*===Individual Home Page===*/
+.page-container {
+    background:#fff;
+    overflow: hidden;
+}
+.parallax-home .mid-brand {
+    position:relative;
+}
+.parallax-home .branding-container {
+    padding-top:14%;
+}
+.parallax-banner {
+    background:url(../img/slider-img/banner1.jpg) 0 0 no-repeat fixed;
+    background-size:cover;
+}
+.boxed-home {
+    background: #2C3E50 url(../img/pattern.jpg) repeat fixed;
+}
+.boxed-home .boxed-container {
+    margin:auto;
+    background:#fff;
+    overflow:hidden;
+}
+.boxed-home .boxed-container .container,.boxed-home .boxed-container #top-bar,.boxed-home .boxed-container {
+    width:1020px !important;
+}
+.boxed-container .branding-container {
+    max-width:80%;
+}
+.boxed-container .post-container .container {
+    max-width:80%;
+}
+.boxed-container .section-intro {
+    max-width:80%;
+}
+.banner-branding {
+    width:156px;
+    height:156px;
+    margin:auto;
+    position:relative !important;
+}
+.banner-branding img {
+    width:156px !important;
+    height:156px !important;
+    position:relative !important;
+    height:auto !important;
+    left:0px !important;
+    top:0px !important;
+    width:auto !important;
+}
+.relative-topbar {
+    position:relative !important;
+}
+.text-slider,.banner-tag-lines {
+    margin:0px;
+    padding:10px 0px;
+}
+.text-slider h2,.text-slider h3 {
+    margin:0px;
+}
+.text-slider li {
+    font-size:24px;
+    text-transform:uppercase;
+}
+.banner-tag-lines li {
+    font-size:24px;
+    text-transform:uppercase;
+    list-style:none;
+}
+.text-animated-banner-branding {
+    margin-bottom: 20px;
+}
+/*====Features=====*/
+.secondary-section-h {
+    margin-bottom:30px;
+}
+.secondary-section-h h3 {
+    font-size:20px;
+    text-transform:uppercase;
+}
+.secondary-section-h h3 {
+    position:relative;
+    z-index:1;
+}
+.secondary-section-h h3 span {
+    padding:0px 10px 0px 0px;
+    display:inline-block;
+    background-color:#fff;
+}
+.secondary-section-h h3:after {
+    content:"";
+    height:2px;
+    margin-top:0;
+    position:absolute;
+    top:50%;
+    background-color:#eee;
+    display:block;
+    width:100%;
+    z-index:-1;
+}
+.secondary-section-h h3 span:after {
+    content:"";
+    height:2px;
+    margin-top:0;
+    position:absolute;
+    top:50%;
+    background-color:#E65A50;
+    width:100px;
+    right:0px;
+    z-index:2;
+}
+.inner-nav {
+    border:#eee 1px solid !important;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    margin-bottom:10px;
+}
+.grid-block {
+    background:#f4f4f4;
+    border:#eee 1px solid;
+    margin-bottom:20px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    padding:10px;
+    text-align:center;
+    text-transform:uppercase;
+    color:#aaa;
+}
+.tab-content {
+    padding: 20px;
+}
+/*Theme Switcher*/
+.theme-switcher {
+    width:206px;
+    height:365px;
+    position:fixed;
+    z-index:1800;
+    top:80px;
+    right:0px;
+}
+.gear-settings {
+    z-index:2005;
+    color:#fff;
+    width:40px;
+    height:40px;
+    display:inline-block;
+    position:fixed;
+    top:80px;
+    right:0px;
+    background-color:#E65A50;
+    line-height:42px;
+    text-align:center;
+    font-size:24px;
+    -webkit-box-shadow:0px 0px 5px rgba(97,97,97,.3);
+    box-shadow:0px 0px 5px rgba(97,97,97,.3);
+}
+.gear-settings:hover,.gear-settings:focus {
+    text-decoration:none;
+    color:#fff;
+}
+.switcher-content {
+    background:#fff;
+    padding:20px 15px 15px 15px;
+    position:absolute;
+    top:-500px;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    -webkit-box-shadow:0px 0px 5px rgba(97,97,97,.3);
+    box-shadow:0px 0px 5px rgba(97,97,97,.3);
+}
+.color-list {
+    margin:0px;
+    padding:0px;
+}
+.color-list li {
+    list-style:none;
+    width:31px;
+    height:31px;
+    display:inline-block;
+    margin:2px;
+    float:left;
+}
+.select-layout,.layout-option {
+    margin:0px;
+    padding:0px;
+}
+.select-layout li,.layout-option li {
+    list-style:none;
+    display:inline-block;
+    float:left;
+    margin:2px;
+}
+.select-layout li a,.layout-option li a,.layout-option li .btn {
+    padding:3px 10px;
+    font-size:12px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+.layout-option button{
+    margin-right: 5px;
+}
+.switcher-content h6 {
+    font-size:12px;
+    text-transform:uppercase;
+    font-weight:400;
+}
+.switcher-content.show {
+    top:0px !important;
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+}
+.theme-color {
+    cursor:pointer;
+}
+.default-theme {
+    background-color:#f6685a;
+}
+.blue-theme {
+    background-color:#38bbeb;
+}
+.green-theme {
+    background-color:#8ebf4e;
+}
+.orange-theme {
+    background-color:#fea352;
+}
+.purple-theme {
+    background-color:#9488dd;
+}
+.turquoise-theme {
+    background-color: #6ccac9;
+}
+
+.visit-link{ margin-top: 10px !important;}
+
+
+/*Gallery Hover*/
+@keyframes anima {
+    from {
+        margin-top:-50px;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
+        filter:alpha(opacity=0);
+        -moz-opacity:0;
+        -khtml-opacity:0;
+        opacity:0
+    }
+    to {
+        margin:auto;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
+        filter:alpha(opacity=100);
+        -moz-opacity:1;
+        -khtml-opacity:1;
+        opacity:1
+    }
+}
+@-webkit-keyframes anima {
+    from {
+        margin-left:-20px;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
+        filter:alpha(opacity=0);
+        -moz-opacity:0;
+        -khtml-opacity:0;
+        opacity:0
+    }
+    to {
+        margin-left:10px;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
+        filter:alpha(opacity=100);
+        -moz-opacity:1;
+        -khtml-opacity:1;
+        opacity:1
+    }
+}
+.pic {
+    position:relative;
+    overflow:hidden;
+    display:inline-block;
+    -webkit-animation:anima 2s;
+    -moz-animation:anima 2s;
+    -o-animation:anima 2s;
+    -ms-animation:anima 2s;
+    animation:anima 2s;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    backface-visibility:hidden
+}
+.pic-3d {
+    -webkit-perspective:500;
+    -moz-perspective:500;
+    -o-perspective:500;
+    -ms-perspective:500;
+    perspective:500;
+    -webkit-transform-style:preserve-3d;
+    -moz-transform-style:preserve-3d;
+    -o-transform-style:preserve-3d;
+    -ms-transform-style:preserve-3d;
+    transform-style:preserve-3d
+}
+.pic-caption {
+    cursor:default;
+    position:absolute;
+
+    width:100%;
+    height:100%;
+    background:rgba(000,000,000,0.5);
+    padding:10px;
+    text-align:center;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity:0;
+    opacity:0
+}
+.pic-caption a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+
+
+}
+.pic-caption a span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 40%;
+    text-align: center;
+    line-height: 30px;
+}
+.pic-caption a i{
+    font-size: 20px;
+    color: #fff;
+
+}
+.pic-image {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    transform:scale(1.1)
+}
+.pic:hover .pic-image {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -o-transform:scale(1);
+    -ms-transform:scale(1);
+    transform:scale(1)
+}
+
+.post-content:hover .pic-image {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -o-transform:scale(1);
+    -ms-transform:scale(1);
+    transform:scale(1)
+}
+
+
+.pic-title {
+    font-size:1.8em
+}
+a,a:hover,.pic .pic-image,.post-content .pic-image,.pic-caption,.pic:hover .pic-caption,.pic:hover img, .post-content:hover img{
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    transition:all 0.5s ease
+}
+.pic:hover .bottom-to-top,.pic:hover .top-to-bottom,.pic:hover .left-to-right,.pic:hover .right-to-left,.pic:hover .rotate-in,.pic:hover .rotate-out,.pic:hover .open-up,.pic:hover .open-down,.pic:hover .open-left,.pic:hover .open-right,.pic:hover .come-left,.pic:hover .come-right {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
+    filter:alpha(opacity=100);
+    -moz-opacity:1;
+    -khtml-opacity:1;
+    opacity:1;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-touch-callout:none;
+    -moz-touch-callout:none;
+    -o-touch-callout:none;
+    -ms-touch-callout:none;
+    touch-callout:none;
+    -webkit-tap-highlight-color:transparent;
+    -moz-tap-highlight-color:transparent;
+    -o-tap-highlight-color:transparent;
+    -ms-tap-highlight-color:transparent;
+    tap-highlight-color:transparent
+}
+.post-content:hover img{
+    filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 10+,Firefox on Android */
+    filter:gray;
+    /* IE6-9 */
+    -webkit-filter:grayscale(100%);
+    /* Chrome 19+,Safari 6+,Safari 6+iOS */
+}
+
+.bottom-to-top {
+    top:50%;
+    left:0
+}
+.pic:hover .bottom-to-top {
+    top:0;
+    left:0
+}
+.top-to-bottom {
+    bottom:50%;
+    left:0
+}
+.pic:hover .top-to-bottom {
+    left:0;
+    bottom:0
+}
+.left-to-right {
+    top:0;
+    right:50%
+}
+.pic:hover .left-to-right {
+    right:0;
+    top:0
+}
+.right-to-left {
+    top:0;
+    left:50%
+}
+.pic:hover .right-to-left {
+    left:0;
+    top:0
+}
+.rotate-in {
+    -webkit-transform:rotate(90deg) scale(0.1);
+    -moz-transform:rotate(90deg) scale(0.1);
+    -o-transform:rotate(90deg) scale(0.1);
+    -ms-transform:rotate(90deg) scale(0.1);
+    transform:rotate(90deg) scale(0.1);
+    top:0;
+    left:0
+}
+.pic:hover .rotate-in {
+    -webkit-transform:rotate(360deg) scale(1);
+    -moz-transform:rotate(360deg) scale(1);
+    -o-transform:rotate(360deg) scale(1);
+    -ms-transform:rotate(360deg) scale(1);
+    transform:rotate(360deg) scale(1)
+}
+.rotate-out {
+    -webkit-transform:rotate(90deg) scale(3);
+    -moz-transform:rotate(90deg) scale(3);
+    -o-transform:rotate(90deg) scale(3);
+    -ms-transform:rotate(90deg) scale(3);
+    transform:rotate(90deg) scale(3);
+    top:0;
+    left:0
+}
+.pic:hover .rotate-out {
+    -webkit-transform:rotate(360deg) scale(1);
+    -moz-transform:rotate(360deg) scale(1);
+    -o-transform:rotate(360deg) scale(1);
+    -ms-transform:rotate(360deg) scale(1);
+    transform:rotate(360deg) scale(1)
+}
+.open-down {
+    -webkit-transform:rotateX(-180deg);
+    -moz-transform:rotateX(-180deg);
+    -o-transform:rotateX(-180deg);
+    -ms-transform:rotateX(-180deg);
+    transform:rotateX(-180deg);
+    top:0;
+    left:0
+}
+.pic:hover .open-down {
+    -webkit-transform:rotateX(0);
+    -moz-transform:rotateX(0);
+    -o-transform:rotateX(0);
+    -ms-transform:rotateX(0);
+    transform:rotateX(0)
+}
+.open-up {
+    -webkit-transform:rotateX(180deg);
+    -moz-transform:rotateX(180deg);
+    -o-transform:rotateX(180deg);
+    -ms-transform:rotateX(180deg);
+    transform:rotateX(180deg);
+    top:0;
+    left:0
+}
+.pic:hover .open-up {
+    -webkit-transform:rotateX(0);
+    -moz-transform:rotateX(0);
+    -o-transform:rotateX(0);
+    -ms-transform:rotateX(0);
+    transform:rotateX(0)
+}
+.open-left {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+    left:0;
+    top:0
+}
+.pic:hover .open-left {
+    -webkit-transform:rotateY(0deg);
+    -moz-transform:rotateY(0deg);
+    -o-transform:rotateY(0deg);
+    -ms-transform:rotateY(0deg);
+    transform:rotateY(0deg)
+}
+.open-right {
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    -o-transform:rotateY(-180deg);
+    -ms-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    left:0;
+    top:0
+}
+.pic:hover .open-right {
+    -webkit-transform:rotateY(0deg);
+    -moz-transform:rotateY(0deg);
+    -o-transform:rotateY(0deg);
+    -ms-transform:rotateY(0deg);
+    transform:rotateY(0deg)
+}
+.come-left {
+    -webkit-transform:rotateY(90deg) rotateX(90deg);
+    -moz-transform:rotateY(90deg) rotateX(90deg);
+    -o-transform:rotateY(90deg) rotateX(90deg);
+    -ms-transform:rotateY(90deg) rotateX(90deg);
+    transform:rotateY(90deg) rotateX(90deg);
+    left:0;
+    top:0
+}
+.pic:hover .come-left {
+    -webkit-transform:rotateY(0) rotateX(0);
+    -moz-transform:rotateY(0) rotateX(0);
+    -o-transform:rotateY(0) rotateX(0);
+    -ms-transform:rotateY(0) rotateX(0);
+    transform:rotateY(0) rotateX(0)
+}
+.come-right {
+    -webkit-transform:rotateY(-90deg) rotateX(-90deg);
+    -moz-transform:rotateY(-90deg) rotateX(-90deg);
+    -o-transform:rotateY(-90deg) rotateX(-90deg);
+    -ms-transform:rotateY(-90deg) rotateX(-90deg);
+    transform:rotateY(-90deg) rotateX(-90deg);
+    left:0;
+    top:0
+}
+.pic:hover .come-right {
+    -webkit-transform:rotateY(0) rotateX(0);
+    -moz-transform:rotateY(0) rotateX(0);
+    -o-transform:rotateY(0) rotateX(0);
+    -ms-transform:rotateY(0) rotateX(0);
+    transform:rotateY(0) rotateX(0)
+}
+
+
+/*===MODAL===*/
+.portfolio-modal{
+    background-color: #fff;
+    height: auto;
+    width: 90%;
+    padding: 0px;
+    margin: 8% auto;
+}
+.portfolio-modal-content{
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.portfolio-modal-content p{
+    line-height: 2em;
+}
+
+.modal-img{
+    padding: 20px;
+}
+.modal-img img{
+    width: 100%;
+
+}
+.modal-exit{
+    width:30px;
+    height: 30px;
+    line-height: 28px !important;
+    z-index: 2500;
+    display: block;
+    text-align: center;
+    background-color: #ccc !important;
+}
+
+.img-desc, .img-url, .img-title{
+    display:none;
+}
+
+#marker-content{
+    display: none;
+}
+
+/*#top-bar{*/
+    /*opacity:0;*/
+    /*-webkit-transition: all 0.6s;*/
+    /*-moz-transition: all 0.6s;*/
+    /*transition: all 0.6s;*/
+/*}*/
+
+.section-header{
+    font-weight: 700 !important;
+}
+#slides{
+    background-color: #303947;
+}
+.secondary-section p{
+    text-align:center !important;
+}
+
+.value .btn-section{
+	background-color: transparent;
+	border: rgba(255,255,255,.2) 1px solid;
+}
+.btn-section:focus{
+  color:#fff !important;
+}/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+/*
+Theme Name: firebrick (Share on Theme123.net)
+Theme URI: http://firebrick.themebucket.net
+Author: ThemeBucket
+Author URI: http://themebucket.net/
+Version: 1.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: firebrick
+Domain Path: /languages/
+Description: Multipurpose & One Page Portfolio
+*/
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+    overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+*,
+*:before,
+*:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+    -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+    box-sizing:         border-box;
+}
+body {
+    background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+
+
+
+
+/*******EDITED***********************************************/
+body {
+    font-family: "proxima-nova" !important;
+    font-weight: normal;
+}
+h2 {
+    font-family: "proxima-nova";
+    font-weight: bold;
+}
+p {
+    line-height: 20px !important;
+    color:#252525;
+}
+
+.col-centered{
+    float: none !important;
+    margin: 0 auto;
+}
+
+.about-block a{
+    background: #d3e0ed url(../img/about-block.png) no-repeat bottom;
+}
+
+@media (min-width: 769px) {
+    .about-container .col-md-3 {
+    width:33.33%;
+}
+    div.product-solutions {
+    position: relative;
+    width:500px;
+    display: block;
+    margin: 0 auto;
+    background: url(../img/baltec-solutions-bg.png) no-repeat center top;
+   min-height: 515px;
+margin-top: 70px;
+padding-bottom: 71px;
+
+}
+
+div.product-solutions-des {
+    width: 250px;
+margin: 0 auto;
+padding-top: 81px;
+color:#fff;
+}
+
+div.product-solutions-des h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0
+}
+
+div.product-solutions-des p {
+    line-height: 16px !important;
+    font-size:13px;
+    font-weight: 300;
+    color:#fff;
+}
+
+div.product-solutions-icons li {
+    position: absolute;
+    transition:all 0.25s ease;
+    -moz-transition:all 0.25s ease;
+    -webkit-transition:all 0.25s ease;
+    -ms-transition:all 0.25s ease;
+    -o-transition:all 0.25s ease;
+}
+
+div.product-solutions-icons li:hover {
+  margin-top: 10px;
+  opacity: 0.8;
+  -webkit-filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.5)); 
+  filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.5));
+   -moz-filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.5));
+    -ms-filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.5));
+}
+
+
+li#solutions-1 {
+top: -101px;
+left: 8px;
+}
+
+li#solutions-2 {
+    top: 130px;
+left: -159px;
+
+}
+
+li#solutions-3{
+    left: -1px;
+top: 412px;
+}
+
+li#solutions-4 {
+    left: 373px;
+top: 410px;
+}
+
+li#solutions-5 {
+    top: 134px;
+left: 474px;
+
+}
+
+li#solutions-6 {
+    top: -101px;
+left: 368px;
+}
+
+}
+
+
+
+
+
+div.baltec-products li {
+    text-align: center;
+    color:#fff;
+    width:30px;
+    height:30px;
+    position: absolute;
+    background: #f59331;
+    border-radius: 50%;
+    border:3px solid #ef662f;
+    opacity: 0.8;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -webit-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    
+
+}
+
+
+
+div.baltec-products li:hover {
+    background: rgba(245, 147, 49, 0.5);
+    border-width:5px;
+
+}
+div.baltec-products li:hover a {
+    color:transparent;
+}
+div.baltec-products li:hover span {
+    top:-30px;
+    opacity: 1;
+    display: block
+}
+div.baltec-products li span {
+   
+    border-radius: 5px;
+    opacity: 0.5;
+    background: #fff;
+    display: none;
+    padding:0 10px;
+    position: absolute;
+top: -35px;
+text-align: center;
+color: black;
+white-space: nowrap;
+left: 0;
+font-weight: bold;
+   transition:all 0.25s ease;
+    -moz-transition:all 0.25s ease;
+    -webkit-transition:all 0.25s ease;
+    -ms-transition:all 0.25s ease;
+    -o-transition:all 0.25s ease;
+}
+div.baltec-products a {
+    color:#fff;
+    display: block;
+    cursor: pointer;
+    width:100%;
+    height:100%;
+
+}
+
+
+li#products-1 {
+left: 173px;
+top: 247px;
+}
+li#products-2 {
+left: 306px;
+top: 270px;
+
+}
+li#products-3 {
+left: 471px;
+top: 270px;
+}
+li#products-4 {
+left: 440px;
+top: 479px;
+}
+li#products-5 {
+left: 640px;
+top: 450px;
+}
+li#products-6 {
+left: 887px;
+top: 0px;
+}
+li#products-7 {
+left: 487px;
+top: 80px;
+}
+.baltec-products-des {
+    margin-top:50px;
+}
+.product-sliders {
+    float:left;
+    width:35%;
+    padding-right:30px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.product-sliders img {
+    width:100%;
+}
+.product-details {
+    border-top:5px solid #003761;
+    float:left;
+    width:65%;
+    padding-bottom: 30px;
+    
+}
+
+.product-details h3 {
+    font-family: 'proxima-nova';
+}
+.product-solutions h3 {
+    font-family: 'proxima-nova'
+}
+
+.testimonial-meta {
+    color:#000 !important;
+}
+
+
+.carousel-control {
+    text-shadow:none;
+    -moz-text-shadow:none;
+    -webkit-text-shadow:none;
+    -ms-text-shadow:none;
+    -o-text-shadow:none;
+}
+
+.carousel-control.right {
+    background: none !important;
+        right: -120px !important;
+top: 50px;
+
+}
+.carousel-control.left {
+    background: none !important;
+    left: -120px;
+top: 50px;
+    
+}
+.download-br {
+    background: #f59331 
+}
+.download-br a {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:0 20px;
+    background:#ef662f;
+    color:#fff;
+    max-width: 330px;
+    margin:20px auto;
+    display: block;
+    height: 50px;  
+    line-height: 50px;
+}
+.news-section h3 a {
+    color:#f59331 !important;
+    font-weight: bold;
+}
+
+.news-section p {
+    font-weight: 300
+}
+
+.product-solutions-des>div {
+    position: absolute;
+
+}
+.product-solutions-des {
+    position: relative;
+}
+/****CONTACT**************/
+div.contact-map {
+    position: absolute;
+}
+div.contact-map img {
+margin-left: -87px;
+margin-top: 30px;
+}
+
+
+img.map-large {
+        display: none;
+    }
+    img.map-small {
+        display:block;
+    }
+
+div.location-pins {
+    position: relative;
+    display: none;
+}
+
+@media (max-width:990px) {
+    .mobile-no-pad {
+        margin:0 !important;
+    }
+    .sf-menu li a {
+        font-size:11px !important;
+        padding:0 0 0 6px !important;
+    }
+    div.top-info {
+        display: none
+    }
+    div.product-solutions {
+        background: none;
+    }
+    div.contact-map img {
+    margin-left: 0
+}
+
+
+    div.contact-map img{
+        width:100%;
+    }
+
+    div.location-pins+.col-md-3 {
+        margin-top: 60%
+    }
+  
+}
+
+
+@media (min-width: 991px) {
+    .baltec-products {
+
+    position: relative;
+    min-height: 520px;
+    background: url(../img/baltec-exhaust-systems.jpg) no-repeat  center top;
+   
+
+}
+      img.map-large {
+        display: block;
+    }
+    img.map-small {
+        display:none;
+    }
+    div.location-pins {
+        left: 14px;
+        display: block;
+    }
+}
+div.location-pins li {
+
+    background: url(../img/location-icon.png) no-repeat;
+    height:37px;
+    display: block;
+
+    width: 22px;
+    position: absolute;
+}
+div.location-pins li span {
+    display: none;
+    position: absolute;
+bottom: 11px;
+text-align: center;
+width: auto;
+
+height: 30px;
+line-height: 30px;
+white-space: nowrap;
+left: -10px;
+padding: 0 10px;
+border-radius: 5px;
+background: #ffcf9c;
+-webkit-box-shadow: -4px 4px 5px 0px rgba(35,40,59,0.46);
+-moz-box-shadow: -4px 4px 5px 0px rgba(35,40,59,0.46);
+box-shadow: -4px 4px 5px 0px rgba(35,40,59,0.46);
+
+}
+div.location-pins li:before {
+    display: none;
+    content: "";
+/* background: #fff; */
+width: 10px;
+height: 4px;
+position: absolute;
+bottom: 0;
+left: 5px;
+border-radius: 50%;
+box-shadow: 0px 0px 8px #fff;
+    -webkit-animation: map-glow 1s infinite; /* Chrome, Safari, Opera */
+    animation: map-glow 1s infinite;
+    -moz-animation: map-glow 1s infinite;
+    -ms-animation: map-glow 1s infinite;
+ 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes  map-glow {
+    from {
+                box-shadow: 0px 0px 3px #fff;
+                -ms-box-shadow: 0px 0px 3px #fff;
+                -o-box-shadow: 0px 0px 3px #fff;
+                -webkit-box-shadow: 0px 0px 3px #fff;
+                -ms-box-shadow: 0px 0px 3px #fff;
+    }
+    to {
+                box-shadow: 0px 0px 8px #fff;
+                -ms-box-shadow: 0px 0px 8px #fff;
+                -o-box-shadow: 0px 0px 8px #fff;
+                -webkit-box-shadow: 0px 0px 8px #fff;
+                -ms-box-shadow: 0px 0px 8px #fff;
+    }
+}
+
+/* Standard syntax */
+@keyframes  map-glow {
+    from {
+                box-shadow: 0px 0px 3px #fff;
+                -ms-box-shadow: 0px 0px 3px #fff;
+                -o-box-shadow: 0px 0px 3px #fff;
+                -webkit-box-shadow: 0px 0px 3px #fff;
+                -ms-box-shadow: 0px 0px 3px #fff;
+    }
+    to {
+                box-shadow: 0px 0px 8px #fff;
+                -ms-box-shadow: 0px 0px 8px #fff;
+                -o-box-shadow: 0px 0px 8px #fff;
+                -webkit-box-shadow: 0px 0px 8px #fff;
+                -ms-box-shadow: 0px 0px 8px #fff;
+    }
+}
+@-moz-keyframes  map-glow {
+    from {
+                box-shadow: 0px 0px 3px #fff;
+                -ms-box-shadow: 0px 0px 3px #fff;
+                -o-box-shadow: 0px 0px 3px #fff;
+                -webkit-box-shadow: 0px 0px 3px #fff;
+                -ms-box-shadow: 0px 0px 3px #fff;
+    }
+    to {
+                box-shadow: 0px 0px 8px #fff;
+                -ms-box-shadow: 0px 0px 8px #fff;
+                -o-box-shadow: 0px 0px 8px #fff;
+                -webkit-box-shadow: 0px 0px 8px #fff;
+                -ms-box-shadow: 0px 0px 8px #fff;
+    }
+}
+
+div.location-pins li:hover:before {
+    display: block
+}
+div.location-pins li.small:hover:before {
+left:2px;
+}
+div.location-pins li:hover span{
+    display: block ;
+}
+
+div.location-pins li:hover {
+    z-index: 3
+}
+div.location-pins li.small {
+    height: 20px;
+width: 13px;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size:100% auto;
+    -o-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+}
+
+li.location-1 {
+    left: 110px;
+top: 150px;
+}
+li.location-2 {
+   top: 310px;
+left: 200px;
+}
+li.location-3 {
+left: 115px;
+top: 220px;
+}
+li.location-4 {
+left: 378px;
+top: 148px;
+}
+
+li.location-5 {
+top: 114px;
+left: 460px;
+}
+li.location-6 {
+    left: 650px;
+top: 199px;
+}
+li.location-7 {
+ left: 558px;
+top: 259px;
+}
+li.location-8 {
+    left: 689px;
+top: 201px;
+}
+
+li.location-9 {
+    left: 716px;
+top: 204px;
+}
+li.location-10 {
+    left: 629px;
+top: 275px;
+}
+li.location-11 {
+    left: 653px;
+top: 317px;
+}
+li.location-12 {
+    left: 478px;
+top: 222px;
+}
+
+li.location-13 {
+    left: 626px;
+top: 300px;
+}
+li.location-14 {
+    left: 639px;
+top: 280px;
+}
+
+.contact h3  {
+    color:#ffcf9c;
+    font-family: "proxima-nova";
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.contact p {
+    color:#fff;
+}
+
+#footer {
+    background: #00060b
+}
+
+
+#myCarousel .fa-2x {
+    color:rgb(0, 55, 97);
+}
+
+@media (max-width:768px) {
+    .testimonial-wrap .thumb {
+max-width: 130px;
+width: 100%;
+height: auto;
+padding-bottom: 20px;
+display: inline-block;
+display: block;
+float: none;
+margin: 0 auto;
+/* margin-right: 20px; */
+}
+    #slides .Slider-Description {
+        display: none;
+    }
+    .top-info {
+        display: none
+    }
+
+    .product-solutions {
+        width: 95%;
+margin: 0 auto;
+    }
+    .product-details {
+width: 90%;
+margin:0 auto;
+display: block;
+float:none;
+}
+
+    .product-sliders {
+width: 90%;
+padding-right: 0;
+display: block;
+margin:0 auto;
+float:none;
+}
+
+.left.carousel-control {
+    left: -35px !important;
+top: 40%;
+z-index: 10;
+}
+
+
+.right.carousel-control {
+    right: -35px !important;
+top: 40%;
+z-index: 10 !important;
+}
+    .portfolio {
+        padding-top:0;
+    }
+ 
+    .baltec-products {
+         background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    }
+    .about-block a{
+         background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    }
+}
+
+.flex-direction-nav{
+    display: none !important;
+}
+
+.flexslider.carousel {
+    margin: 0 0 60px;
+background: #fff;
+/* border: 4px solid #fff; */
+position: relative;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-o-border-radius: 4px;
+/* border-radius: 4px; */
+/* -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); */
+-moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+-o-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+/* box-shadow: 0 1px 4px rgba(0,0,0,.2); */
+zoom: 1;
+}
+.flex-control-nav.flex-control-paging {
+width: 100%;
+position: absolute;
+bottom: 22px;
+z-index: 5;
+text-align: center;}
+
+img.thumbnail {
+    margin-bottom: 0px;
+}
+
+
+#slides h4 {
+    background: #f59331;
+    display: block;
+    height: 30px;
+    white-space: nowrap;
+}
+
+#slides .Slider-Description:before{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 30px 30px 0;
+border-color: transparent rgba(245, 147, 49, 0.8) transparent transparent;
+content:"";
+display: block;
+position: absolute;
+
+left: -30px;
+}
+#slides .Slider-Description {
+    font-size:14px !important;
+}
+.about-container .row .col-md-4:nth-of-type(3n+1){
+    clear:both;
+}
+
+.product-solutions {
+    color:#fff;
+}
+
+.product-solutions p {
+    color:#252525;
+}
+
+.testimonial h3 a, .testimonial p, span.testimonial-meta {
+    color: #000 !important
+}
+
+
+.sf-menu li a{
+   font-size: 15px;
+margin-left: 16px;
+}
+
+.top-info a.linkedin{
+    display: inline-block;
+float: left;
+width: 39px;
+
+height: 39px;
+margin: 4px;
+text-indent: -9999px
+}
+
+.top-info {
+
+    padding-top:10px;
+    font-size: 18px;
+font-weight: bold;
+
+}
+.top-info .email{
+    font-size: 14px;
+
+}
+
+.top-info span {
+    float: right;
+}
+
+.sf-menu {
+    padding-top:25px !important;
+}
+
+.top-info a.linkedin {
+    background: url(../img/linkedin.png) no-repeat ;
+}
+
+
+.flex-control-nav li {
+margin: 0 3px !important;
+display: inline-block;
+zoom: 1;
+}
+.flex-control-nav.flex-control-paging {
+width: 100%;
+position: absolute;
+bottom: 10px;
+right: 10px;
+z-index: 5;
+text-align: center;
+}
+.flex-control-paging li a {
+    background: rgba(255,255,255,0.8) !important
+}
+.flex-control-paging li a.flex-active {
+    background: #f59331 !important
+}
+@media (max-width: 1200px) and (min-width: 991px) {
+    .top-info {
+        display: none;
+    }
+    .sf-menu li a {
+        font-size: 11px !important;
+    }
+}
+
+span.heading-logo {
+
+    background: url(../img/baltec-logo-2.jpg) no-repeat center center;
+    display: block;
+    width:120px;
+    height:120px;
+    margin:0 auto 35px;
+}
+
+#services h2 {
+    color:#004e81;
+}
+#services .section-intro {
+    color:#626972;
+}
+
+.career h3 {
+    padding-bottom: 15px
+}
+
+.career input {
+    width: 80%;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+border: 1px solid #999;
+padding-left:10px;
+}
+
+.career .wpcf7 li {
+        margin-bottom:10px;
+}
+
+.career input[type="file"] {
+    display: inline-block;
+}
+.career textarea {
+    width:100%;
+    border-radius: 5px;
+}
+
+.career input[type="submit"] {
+border-radius: 5px;
+border: none;
+font-weight: bold;
+font-size: 20px;
+/* text-align: right; */
+padding: 0 20px;
+background: #ef662f;
+color: #fff;
+max-width: 330px;
+margin: 20px 0;
+display: block;
+float: right;
+height: 50px;
+width: 200px;
+line-height: 50px;
+}
+.career input[type="submit"]:hover {
+    background: #1D4671
+}
+.career .jobs {
+    padding-bottom: 30px;
+}
+
+.career .job-item span{
+    vertical-align: top;
+        display: inline-block;
+        width: 17%;
+
+}
+.job-item {
+    list-style: none;
+}
+.career .job-item .job-title, .career .job-item .job-location {
+    width: 40%
+}
+.career .job-date {
+    text-align: right
+}
+span.slide-blue {
+    color:#b1e3ff !important;
+}
+.widget a {
+color: #6e6e6e;
+font-size: 14px;
+}
