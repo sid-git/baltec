@@ -652,7 +652,7 @@ global $themebucket_firebrick;
 
 
 
-                                    <a href="#career">Career</a>
+                                    <a href="<?php bloginfo('url') ?>/careers">Career</a>
 
 
 
