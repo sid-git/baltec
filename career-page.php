@@ -61,11 +61,11 @@ setup_postdata($post);
                 </div>
                 <div class="top-info">
 
-                        <a class="linkedin" href="https://www.linkedin.com/company/baltec-inlet-&-exhaust-systems">linkedin</a>
+                        <a class="linkedin" href="<?php the_field('linkedin_url', 'option'); ?>">linkedin</a>
 
-                        <span>+61 3 9763 6711</span>
+                        <span><?php the_field('phone_number', 'option'); ?></span>
 
-                        <span class="email"><a href="matilto:info@baltecies.com.au">info@baltecies.com.au</a></span>
+                        <span class="email"><a href="matilto:<?php the_field('email_address', 'option'); ?>"><?php the_field('email_address', 'option'); ?></a></span>
 
                         
 
@@ -75,17 +75,17 @@ setup_postdata($post);
             </div>
         </div>
     </nav>
-    <section class="inner-page-header feature-header overlay-section">
+    <!--<section class="inner-page-header feature-header overlay-section">
         <div class="overlay-div">
         </div>
         <div class=" container">
             <h2 class="inner-page-title"><?php the_title(); ?></h2>
         </div>
-    </section>
+    </section>-->
     
     <section class="career clearfix" id="career">    
         <div>   
-            <h2 class="section-header wow bouneIn">Career    </h2> 
+            <h2 class="section-header wow bouneIn"><?php the_title(); ?></h2> 
             <p class="section-intro"> </p>
             
             
