@@ -1,6 +1,6 @@
 <?php
 global $themebucket_firebrick;
-$news = firebrick_get_custom_posts("news");
+$news = firebrick_get_custom_posts("news",4);
 $classes = array(0 => "", "1" => "col-md-12", "2" => "col-md-6", "3" => "col-md-6", "4" => "col-md-6");
 $anims = array(1 => "slideInLeft", 2 => "fadeIn", 3 => "fadeIn", 4 => "slideInRight");
 $class = $classes[count($news)];
@@ -12,9 +12,11 @@ $class = $classes[count($news)];
                 <h2 class="section-header wow bounceIn"><?php if (isset($themebucket_firebrick['section_news_title'])) echo $themebucket_firebrick['section_news_title']; ?></h2>
 
                 <p class="section-intro wow fadeInUp">
-                    <?php if (isset($themebucket_firebrick['section_news_subtitle'])) echo $themebucket_firebrick['section_news_subtitle']; ?>
+                    <?php if (isset($themebucket_firebrick['section_news_subtitle'])) echo $themebucket_firebrick['section_news_subtitle']; ?><br /><br />
+                    <a href="news" class="btn btn-lg block centered" target="_blank">View More News ></a>
                 </p>
             </div>
+
             <div class="row">
                 <?php
                 $i = 0;
@@ -29,7 +31,7 @@ $class = $classes[count($news)];
                         <div class="news-section clearfix wow <?php if($i%2==1) echo "slideInLeft"; else echo "slideInRight" ;?>">
                             <img src="<?php if (isset($attachment[0])) echo $attachment[0]; ?>" alt="Determined">
 
-                            <h3><a href="<?php echo get_permalink();?>"><?php the_title();?></a></h3>
+                            <h3><a href="<?php echo get_permalink();?>" target="blank"><?php the_title();?></a></h3>
 
                             <?php the_excerpt();?>
                         </div>
@@ -38,6 +40,7 @@ $class = $classes[count($news)];
 				
 				}?>
             </div>
+            
         </div>
     </div>
 <?php } ?>

@@ -34,7 +34,7 @@ global $themebucket_firebrick;
                 <li class="location-3"><span>Mexico / Central America</span></li>
                 <li class="location-4"><span>Europe</span></li>
                 <li class="location-5"><span>Russia</span></li>
-                <li class="location-6"><span>China/Taiwan</span></li>
+                <li class="location-6"><span>China</span></li>
                 <li class="location-7"><span>India</span></li>
                 <li class="location-8 small"><span>Korea</span></li>
                 <li class="location-9 small"><span>Japan</span></li>
@@ -43,6 +43,8 @@ global $themebucket_firebrick;
                 <li class="location-12 "><span>Middle East</span></li>
                 <li class="location-13 small"><span>Malaysia</span></li>
                 <li class="location-14 small"><span>Vietnam</span></li>
+                <li class="location-15 small"><span>Taiwan</span></li>
+                <li class="location-16 small"><span>Philippines</span></li>
                 
 
             </ul>
@@ -60,58 +62,4 @@ global $themebucket_firebrick;
     <!--section contact end-->
 <?php } ?>
 
-    <section class="career clearfix" id="career">    
-        <div>   
-            <h2 class="section-header wow bouneIn">Career    </h2> 
-            <p class="section-intro"> </p>
-            
-            
-        </div>
-        <div class="col-md-5 col-centered">
-        
-         <? echo get_field('career_content','option'); ?> 
-        
-            <h3>Featured Job Opportunities:</h3> 
-            
-            <?php
-
-			// check if the repeater field has rows of data
-			if( have_rows('job_positions','option') ):
-				echo ' <div class="jobs"> ';
-				// loop through the rows of data
-				while ( have_rows('job_positions','option') ) : the_row();
-				
-				$date = DateTime::createFromFormat('Ymd', get_sub_field('job_date','option'));
-
-			
-					?>
-                     <li class="job-item">   
-                        <span class="job-title"><a href="<? the_sub_field('job_pdf','option') ?>" target="_blank"><? the_sub_field('job_title','option') ?></a></span>
-                        <span class="job-location"><? the_sub_field('job_location','option') ?></span>
-                        <span class="job-date"><? echo $date->format('d-m-Y'); ?></span>
-                	</li>
-                    
-                    
-                    <?php
-
-				endwhile;
-				
-				echo '</div>';
-			else :
-			
-				the_field('job_replacement_content','option');
-			
-			endif;
-			
-			?>
-            
-            
-           
-              
-                <?php
-       echo do_shortcode('[contact-form-7 id="241" title="Job Application"]');
-    ?>
-
-        </div>
-        
-    </section>
+   
