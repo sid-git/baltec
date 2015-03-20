@@ -45,6 +45,8 @@ global $themebucket_firebrick;
                 <li class="location-14 small"><span>Vietnam</span></li>
                 <li class="location-15 small"><span>Taiwan</span></li>
                 <li class="location-16 small"><span>Philippines</span></li>
+                <li class="location-17 small"><span>Singapore</span></li>
+                <li class="location-18 small"><span>Perth</span></li>
                 
 
             </ul>
